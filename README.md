@@ -24,11 +24,11 @@ file `./kseasy-action-email.jar:/opt/jboss/keycloak/standalone/deployments/kseas
 
 **Declare required Action**
 
-![](tof_readme\keycloak_required_action.JPG)
+![keycloak_required_action](/tof_readme/keycloak_required_action.JPG)
 
 **Add required action to user**
 
-![](tof_readme\user_action.JPG)
+![user_action](/tof_readme/user_action.JPG)
 
 ## New email template
 
@@ -39,13 +39,13 @@ file `./kseasy-freemarker.jar:/opt/jboss/keycloak/standalone/deployments/kseasy-
 
 **ignore default template email provider**
 
-![](tof_readme\email_template.JPG)
+![email_template](/tof_readme/email_template.JPG)
 
 **verify the new template email**
 in : `auth/admin/master/console/#/server-info/providers`
-![](tof_readme\server info.JPG)
+![server info](/tof_readme/server info.JPG)
 
-![](tof_readme\email freelmar.JPG)
+![email freelmar](/tof_readme/email freelmar.JPG)
 
 ## New event listener
 
@@ -57,4 +57,4 @@ file `./kseasy-freemarker.jar:/opt/jboss/keycloak/standalone/deployments/kseasy-
 **enable event listener**
 
 in the event menu
-![](tof_readme\event.JPG)
+![event](/tof_readme/event.JPG)
