@@ -22,6 +22,8 @@ services:
       KEYCLOAK_USER: admin
       KEYCLOAK_PASSWORD: kseasy
       JDBC_PARAMS: "useSSL=false"
+    volumes:
+      - standalone.xml:/opt/jboss/keycloak/standalone/configuration/standalone.xml
     expose:
       - '8080'
     ports:
